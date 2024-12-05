@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -p 4000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
+    "@types/nodemailer": "^6.4.17",
+    "nodemailer": "^6.9.16",
+    "nuxt": "^3.14.1592",
+    "nuxt-nodemailer": "^1.1.2",
+    "vitest": "^0.25.3"
+  },
+  "dependencies": {
+    "@highlightjs/vue-plugin": "highlightjs/vue-plugin",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.7.7",
+    "highlight.js": "^11.7.0",
+    "nuxt-mail": "^5.1.1",
+    "tailwindcss": "^3.4.15"
+  }
+}

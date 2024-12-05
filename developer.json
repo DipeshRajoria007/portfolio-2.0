@@ -1,0 +1,167 @@
+{
+  "name": "Dipesh Rajoria",
+  "dev": {
+    "name": "Dipesh Rajoria",
+    "role": "Software Engineer"
+  },
+  "logo_name": "dipesh-rajoria",
+  "role": "software engineer",
+  "about": {
+    "sections": {
+      "professional-info": {
+        "title": "professional-info",
+        "icon": "icons/info-professional.svg",
+        "info": {
+          "experience": {
+            "title": "experience",
+            "description": "<br>I have gained valuable experience working as a Software Developer, specializing in Fullstack development. At Newton School, I led the development of a monolithic backend infrastructure for over 70+ projects, driving 200% growth in placements. I also contributed to mobile app development at Clink, optimizing performance through code refactoring and transitioning the architecture to a modern JavaScript interface. My hands-on experience has equipped me with the ability to tackle diverse challenges in web and mobile development."
+          },
+          "hard-skills": {
+            "title": "hard-skills",
+            "description": "<br>My technical expertise spans across multiple platforms and languages. I am proficient in <strong>JavaScript, React.js, React Native, Node.js, Redux, TypeScript, and MongoDB<strong>, with hands-on experience in building scalable applications. I am also experienced with DevOps tools like Docker and Kubernetes, ensuring efficient and robust deployments. Whether it’s frontend or backend, I thrive in delivering optimized and maintainable solutions."
+          },
+          "soft-skills": {
+            "title": "soft-skills",
+            "description": "<br>Alongside my technical skills, I possess strong problem-solving abilities and leadership qualities. I’ve led cross-functional teams, collaborated with various stakeholders, and mentored fellow developers. My ability to communicate clearly and adapt to fast-changing environments has helped me efficiently manage project requirements while fostering teamwork and innovation."
+          }
+        }
+      },
+      "personal-info": {
+        "title": "personal-info",
+        "icon": "icons/info-personal.svg",
+        "info": {
+          "bio": {
+            "title": "bio",
+            "description": "<br>I’m a Software Developer driven by curiosity and a relentless pursuit of technological innovation. My professional journey has spanned a range of projects, from robust backend architectures to sophisticated frontend applications. I am passionate about optimizing web applications, having successfully enhanced performance by 20-25x. Committed to continuous learning and experimentation, I strive to build solutions that make a lasting impact."
+          },
+          "interests": {
+            "title": "interests",
+            "description": "<br><strong>Exploring Cutting-Edge Technologies:<strong/> I am constantly on the lookout for emerging technologies and frameworks that challenge the conventional ways of building software. My passion for innovation drives me to experiment with the latest tools, ensuring I stay at the forefront of technological advancement.<br><br><strong>Mobile Development:<strong/> The dynamic world of mobile app development captivates me. I thrive on crafting responsive, intuitive applications that deliver seamless user experiences across diverse mobile platforms. My focus is on leveraging modern development frameworks to create apps that not only meet but exceed user expectations.<br><br><strong>Scalable Backend Solutions:<strong/> I am deeply interested in backend development, specifically in optimizing and scaling applications to support growth and ensure robust performance under heavy loads. My approach involves designing and implementing scalable architectures that can efficiently handle increasing amounts of data and concurrent users without compromising on speed or functionality.<br><br><strong>Writing Scalable and Maintainable Code:<strong/> I take pride in developing code that is not only scalable but also maintainable. I believe that well-structured, clean code is the cornerstone of any successful project, enabling efficient teamwork and future enhancements. My commitment to best practices and continuous learning ensures that the solutions I develop are both powerful and sustainable."
+          },
+          "education": {
+            "title": "education",
+            "description": "<br><strong>Bachelor of Technology in Computer Science (2023)<strong/>.<br>Lovely Professional University<br><br>While I may not come from the storied institutions like IIT, NIT, or IISc, my journey at Lovely Professional University laid the foundational knowledge I needed to navigate the tech world. However, true to the spirit of a developer, the majority of my skill set was self-crafted, developed through endless hours of coding, experimenting, and problem-solving beyond the classroom. This self-driven approach has not only shaped my professional path but also my approach to technology—innovative, resilient, and ever-evolving."
+          }
+        }
+      },
+      "hobbies-info": {
+        "title": "hobbies-info",
+        "icon": "icons/info-hobbies.svg",
+        "info": {
+          "sports": {
+            "title": "sports",
+            "description": "<br>My athletic journey began on the school <strong>football fields<strong/>, where I thrived on the teamwork and excitement of the game. In college, my focus shifted to personal fitness, making the <strong>gym<strong/> an essential part of my daily life. Alongside my workouts, I also enjoy <strong>playing badminton<strong/>, which keeps my reflexes sharp and complements my fitness goals. Together, these activities underscore my commitment to maintaining a healthy and active lifestyle."
+          },
+          "favorite-games": {
+            "title": "favorite-games",
+            "description": "<br>I play first-person shooters, especially <stong>Valorant and Call of Duty<stong/>, for their intense action and strategic gameplay. Additionally, I’ve experienced every thrill that the <stong>Need for Speed<stong/> series has to offer,"
+          }
+        }
+      }
+    }
+  },
+  "contacts": {
+    "direct": {
+      "title": "contacts",
+      "sources": {
+        "email": "dipeshrajoria45@gmail.com",
+        "phone": "+91 7814009139"
+      }
+    },
+    "social": {
+      "github": {
+        "title": "Github profile",
+        "url": "https://github.com/",
+        "user": "DipeshRajoria007"
+      },
+      "twitter": {
+        "title": "Twitter account",
+        "url": "https://twitter.com/",
+        "user": "DipeshRajoria_"
+      },
+      "codeforces": {
+        "title": "Codeforces Account",
+        "url": "https://codeforces.com/profile/",
+        "user": "dipesh007"
+      },
+      "leetcode": {
+        "title": "leetcode Account",
+        "url": "https://leetcode.com/",
+        "user": "dipeshrajoria45"
+      }
+    },
+    "find_me_also_in": {
+      "title": "find-me-also-in",
+      "sources": {
+        "youtube": {
+          "title": "YouTube channel",
+          "url": "https://www.youtube.com/",
+          "user": "username"
+        },
+        "gurushots": {
+          "title": "GuruShots profile",
+          "url": "https://gurushots.com/",
+          "user": "username"
+        },
+        "instagram": {
+          "title": "Instagram account",
+          "url": "https://instagram.com/",
+          "user": "username"
+        },
+        "twitch": {
+          "title": "Twitch profile",
+          "url": "https://twitch.com/",
+          "user": "username"
+        }
+      }
+    }
+  },
+  "gists": {
+    "1": "11864fe82a8ca7c797205a83c893a0e2",
+    "2": "dc13fef52c0831ed1d32f61b40732843"
+  },
+  "projects": {
+    "1": {
+      "title": "_ui-animations",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/ui-animations2.png",
+      "tech": ["Flutter"],
+      "url": "https://github.com/"
+    },
+    "2": {
+      "title": "_ai-resources",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/ai-resources.png",
+      "tech": ["Gatsby"],
+      "url": "https://github.com/"
+    },
+    "3": {
+      "title": "_worldmap",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/worldmap.png",
+      "tech": ["React Native"],
+      "url": "https://github.com/"
+    },
+    "4": {
+      "title": "_ui-animations",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/ui-animations.png",
+      "tech": ["React"],
+      "url": "https://github.com/"
+    },
+    "5": {
+      "title": "_tetris-game",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/tetris-game.png",
+      "tech": ["React"],
+      "url": "https://github.com/"
+    },
+    "6": {
+      "title": "_ethereum",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "/images/projects/ethereum.png",
+      "tech": ["Vue"],
+      "url": "https://github.com/"
+    }
+  }
+}
