@@ -18,13 +18,13 @@
           _about-me
         </NuxtLink>
 
-        <!-- <NuxtLink
+        <NuxtLink
           id="nav-link"
           to="/projects"
           :class="{ active: isActive('/projects') }"
         >
           _projects
-        </NuxtLink> -->
+        </NuxtLink>
       </div>
 
       <NuxtLink

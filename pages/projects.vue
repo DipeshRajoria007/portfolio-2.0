@@ -1,138 +1,158 @@
 <template>
-  <div id="unavailable">this route is unavailable</div>
-</template>
-
-<script>
-console.log("This is unavailable");
-</script>
-<style>
-#unavailable {
-  color: rgb(96 123 150);
-  text-align: center;
-  font-family: "Fira Code SemiBold";
-}
-</style>
-
-<!-- <template>
   <main class="flex flex-col flex-auto lg:flex-row overflow-hidden">
-
     <div id="mobile-page-title">
       <h2>_projects</h2>
     </div>
 
     <!-- section title (mobile) -->
-<!-- <div id="section-content-title" class="flex lg:hidden" @click="showFilters = !showFilters">
-      <img :class="showFilters ? 'section-arrow rotate-90' : 'section-arrow'" src="/icons/arrow.svg">
+    <div
+      id="section-content-title"
+      class="flex lg:hidden"
+      @click="showFilters = !showFilters"
+    >
+      <img
+        :class="showFilters ? 'section-arrow rotate-90' : 'section-arrow'"
+        src="/icons/arrow.svg"
+      />
       <span class="font-fira_regular text-white text-sm">projects</span>
-    </div> -->
+    </div>
 
-<!-- <div v-if="showFilters" id="filter-menu" class="w-full flex-col border-right font-fira_regular text-menu-text lg:flex">
+    <div
+      v-if="showFilters"
+      id="filter-menu"
+      class="w-full flex-col border-right font-fira_regular text-menu-text lg:flex"
+    >
       <!-- title -->
-<!-- <div id="section-content-title" class="hidden lg:flex items-center min-w-full">
-        <img id="section-arrow-menu" src="/icons/arrow.svg" alt="" class="section-arrow mx-3">
+      <div
+        id="section-content-title"
+        class="hidden lg:flex items-center min-w-full"
+      >
+        <img
+          id="section-arrow-menu"
+          src="/icons/arrow.svg"
+          alt=""
+          class="section-arrow mx-3"
+        />
         <p class="font-fira_regular text-white text-sm">projects</p>
-      </div> -->
+      </div>
 
-<!-- filter menu -->
-<!-- <nav id="filters" class="w-full flex-col"> -->
-
-<!-- <div v-for="tech in techs" :key="tech" class="flex items-center py-2">
-          <input type="checkbox" :id="tech" @click="filterProjects(tech)">
-          <img :id="'icon-tech-' + tech" :src="'/icons/techs/' + tech + '.svg'" alt="" class="tech-icon w-5 h-5 mx-4">
+      <!-- filter menu -->
+      <nav id="filters" class="w-full flex-col">
+        <div v-for="tech in techs" :key="tech" class="flex items-center py-2">
+          <input type="checkbox" :id="tech" @click="filterProjects(tech)" />
+          <img
+            :id="'icon-tech-' + tech"
+            :src="'/icons/techs/' + tech + '.svg'"
+            alt=""
+            class="tech-icon w-5 h-5 mx-4"
+          />
           <span :id="'title-tech-' + tech">{{ tech }}</span>
         </div>
-      </nav> -->
-<!-- </div> -->
+      </nav>
+    </div>
 
-<!-- content -->
+    <!-- content -->
 
-<!-- <div class="flex flex-col w-full overflow-hidden"> -->
-
-<!-- windows tab -->
-<!-- <div class="tab-height w-full hidden lg:flex border-bot items-center">
+    <div class="flex flex-col w-full overflow-hidden">
+      <!-- windows tab -->
+      <div class="tab-height w-full hidden lg:flex border-bot items-center">
         <div class="flex items-center border-right h-full">
-          <p v-for="filter in filters" :key="filter" class="font-fira_regular text-menu-text text-sm px-3">{{ filter }};</p>
-          <img src="/icons/close.svg" alt="" class="m-3">
+          <p
+            v-for="filter in filters"
+            :key="filter"
+            class="font-fira_regular text-menu-text text-sm px-3"
+          >
+            {{ filter }};
+          </p>
+          <img src="/icons/close.svg" alt="" class="m-3" />
         </div>
-      </div> -->
+      </div>
 
-<!-- windows tab mobile -->
-<!-- <div id="tab" class="flex lg:hidden items-center">
-          <span class="text-white"> // </span>
-          <p class="font-fira_regular text-white text-sm px-3">projects</p>
-          <span class="text-menu-text"> / </span>
-          <p v-for="filter in filters" :key="filter" class="font-fira_regular text-menu-text text-sm px-3">{{ filter }};</p>
-      </div> -->
+      <!-- windows tab mobile -->
+      <div id="tab" class="flex lg:hidden items-center">
+        <span class="text-white"> // </span>
+        <p class="font-fira_regular text-white text-sm px-3">projects</p>
+        <span class="text-menu-text"> / </span>
+        <p
+          v-for="filter in filters"
+          :key="filter"
+          class="font-fira_regular text-menu-text text-sm px-3"
+        >
+          {{ filter }};
+        </p>
+      </div>
 
-<!-- projects -->
-<!-- <div id="projects-case" class="grid grid-cols-1 lg:grid-cols-2 max-w-full h-full overflow-scroll lg:self-center">
-        <div id="not-found" class="hidden flex flex-col font-fira_retina text-menu-text my-5 h-full justify-center items-center">
-          <span class="flex justify-center text-4xl pb-3">
-            X__X
-          </span>
+      <!-- projects -->
+      <div
+        id="projects-case"
+        class="grid grid-cols-1 lg:grid-cols-2 max-w-full h-full overflow-scroll lg:self-center"
+      >
+        <div
+          id="not-found"
+          class="hidden flex flex-col font-fira_retina text-menu-text my-5 h-full justify-center items-center"
+        >
+          <span class="flex justify-center text-4xl pb-3"> X__X </span>
           <span class="text-white flex justify-center text-xl">
             No matching projects
           </span>
-          <span class="flex justify-center">
-            for these technologies
-          </span>
-        </div> -->
+          <span class="flex justify-center"> for these technologies </span>
+        </div>
 
-<!-- <project-card
-          v-for="(project, key, index) in projects" 
-          :key="key" 
+        <project-card
+          v-for="(project, key, index) in projects"
+          :key="key"
           :index="index"
           :project="project"
-        /> -->
+        />
+      </div>
+    </div>
+  </main>
+</template>
 
-<!-- </div>
-  </div>
-</main> -->
-<!-- </template> -->
--->
+<script setup>
+import { ref } from "vue";
 
-<!-- <script setup>
-import { ref } from 'vue'
+const config = useRuntimeConfig();
 
-const config = useRuntimeConfig()
-
-const techs = ['React', 'React Native', 'NodeJs']
-const filters = ref(['all'])
-const showFilters = ref(true)
-const projects = ref(config.public.dev.projects)
+const techs = ["React", "Next", "React Native", "Vue"];
+const filters = ref(["all"]);
+const showFilters = ref(true);
+const projects = ref(config.public.dev.projects);
 
 function filterProjects(tech) {
-  document.getElementById('icon-tech-' + tech).classList.toggle('active')
-  document.getElementById('title-tech-' + tech).classList.toggle('active')
+  document.getElementById("icon-tech-" + tech).classList.toggle("active");
+  document.getElementById("title-tech-" + tech).classList.toggle("active");
 
-  const check = document.getElementById(tech)
+  const check = document.getElementById(tech);
   if (check.checked) {
-    filters.value = filters.value.filter((item) => item !== 'all')
-    filters.value.push(tech)
+    filters.value = filters.value.filter((item) => item !== "all");
+    filters.value.push(tech);
   } else {
-    filters.value = filters.value.filter((item) => item !== tech)
-    filters.value.length === 0 ? filters.value.push('all') : null
+    filters.value = filters.value.filter((item) => item !== tech);
+    filters.value.length === 0 ? filters.value.push("all") : null;
   }
-  filters.value[0] == 'all' ? projects.value = config.public.dev.projects : projects.value = filterProjectsBy(filters.value)
+  filters.value[0] == "all"
+    ? (projects.value = config.public.dev.projects)
+    : (projects.value = filterProjectsBy(filters.value));
 
   if (projects.value.length === 0) {
-    document.getElementById('projects-case').classList.remove('grid')
-    document.getElementById('not-found').classList.remove('hidden')
+    document.getElementById("projects-case").classList.remove("grid");
+    document.getElementById("not-found").classList.remove("hidden");
   } else {
-    document.getElementById('projects-case').classList.add('grid')
-    document.getElementById('not-found').classList.add('hidden')
+    document.getElementById("projects-case").classList.add("grid");
+    document.getElementById("not-found").classList.add("hidden");
   }
 }
 
 function filterProjectsBy(filters) {
-  const projectArray = Object.values(config.public.dev.projects)
-  return projectArray.filter(project => {
-    return filters.some(filter => project.tech.includes(filter))
-  })
+  const projectArray = Object.values(config.public.dev.projects);
+  return projectArray.filter((project) => {
+    return filters.some((filter) => project.tech.includes(filter));
+  });
 }
-</> -->
+</script>
 
-<!-- <style>
+<style>
 #filters {
   padding: 10px 25px;
 }
@@ -155,11 +175,11 @@ function filterProjectsBy(filters) {
 }
 
 #view-button {
-  background-color: #1C2B3A;
+  background-color: #1c2b3a;
 }
 
 #view-button:hover {
-  background-color: #263B50;
+  background-color: #263b50;
 }
 
 input[type="checkbox"] {
@@ -211,7 +231,6 @@ input[type="checkbox"]:focus {
   #projects-case {
     padding: 0px 25px 40px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -237,4 +256,4 @@ input[type="checkbox"]:focus {
     transform: translate3d(0, 10px, 0);
   }
 }
-</style> -->
+</style>

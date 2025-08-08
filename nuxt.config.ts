@@ -8,6 +8,43 @@ const siteTitle = `${config.name} | ${config.role}`;
  */
 export default defineNuxtConfig({
   /**
+   * * Compatibility Date
+   * Set compatibility date for consistent behavior
+   */
+  compatibilityDate: "2024-04-03",
+
+  /**
+   * * Development Config
+   * Configure HMR and development server
+   */
+  devtools: { enabled: true },
+
+  /**
+   * * SSR Config
+   * Configure Server-Side Rendering
+   */
+  ssr: true,
+
+  /**
+   * * Vite Config for HMR
+   * Configure Vite dev server for Hot Module Replacement
+   */
+  vite: {
+    server: {
+      hmr: {
+        port: 24678,
+        host: "localhost",
+      },
+      watch: {
+        usePolling: false,
+      },
+    },
+    optimizeDeps: {
+      include: ["vue", "@vue/runtime-core"],
+    },
+  },
+
+  /**
    * * App Config
    * app config: https://nuxt.com/docs/api/configuration/nuxt-config#app
    * head config: https://nuxt.com/docs/api/configuration/nuxt-config#head
