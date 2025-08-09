@@ -133,35 +133,28 @@
       "description": "React, Jupyter Notebook, Node and spreadsheets Playgrounds",
       "img": "/images/projects/Newtonbox-thumbnail.png",
       "tech": ["React"],
-      "url": "https://github.com/"
+      "url": "https://my.newtonschool.co/playground"
     },
     "3": {
+      "title": "_Co_Sketch",
+      "description": "CoSketch - Real-time Collaborative Whiteboard for Productivity.",
+      "img": "/images/projects/co-sketch.png",
+      "tech": ["React"],
+      "url": "https://co-sketch-tau.vercel.app/"
+    },
+    "4": {
       "title": "_web_finder",
       "description": "Get direct download links for almost anything.",
       "img": "/images/projects/web-scrapper.png",
       "tech": ["Next"],
       "url": "https://web-finder-six.vercel.app/"
     },
-    "4": {
+    "5": {
       "title": "_valorant-guide",
       "description": "A  Goto place for valorant pros.",
       "img": "/images/projects/valorant.png",
       "tech": ["React"],
       "url": "https://valorant-guide-dipeshrajoria007.vercel.app/"
-    },
-    "5": {
-      "title": "_tetris-game",
-      "description": "Duis aute irure dolor in velit esse cillum dolore.",
-      "img": "/images/projects/tetris-game.png",
-      "tech": ["React"],
-      "url": "https://github.com/"
-    },
-    "6": {
-      "title": "_ethereum",
-      "description": "Duis aute irure dolor in velit esse cillum dolore.",
-      "img": "/images/projects/ethereum.png",
-      "tech": ["Vue"],
-      "url": "https://github.com/"
     }
   }
 }
